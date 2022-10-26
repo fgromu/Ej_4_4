@@ -1,8 +1,8 @@
 name: Run Python Tests and flake 8
 on:
-  #push:
-  #  branches:
-  #    - main    
+  push: # este a lo mejor hay que quitarlo en el ejercicio
+    branches:
+      - main    
   pull_request:
     branches:
       - main
